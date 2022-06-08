@@ -170,7 +170,8 @@ p.lead {
 	}
 }
 em, i, strong, b {
-	font-size: 1.7rem;
+	/* ENABLE THIS AND WHATSAPP AND DISCORD ICONS GONA DIE LOL */
+	/* font-size: 1.7rem; */
 	line-height: 3rem;
 	font-style: normal;
 	font-weight: normal;
@@ -1300,7 +1301,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/intro-bg.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1319,7 +1320,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #111111;
-	opacity: .85;
+	opacity: .50;
 }
 
 .intro-content {
@@ -1409,7 +1410,7 @@ header .logo a {
 	width: 100%;
 	left: 0;
 	bottom: 7.2rem;
-	font-size: 3.3rem;
+	font-size: 3.3rem !important;
 	margin: 0;
 	padding: 0;
 }
@@ -1789,89 +1790,7 @@ header .logo a {
 }
 
 
-/** 
- * ===================================================================
- * 13. portfolio - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#portfolio {
-	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-}
-#portfolio .folio-item {
-	padding: 0;
-	position: relative;
-	overflow: hidden;
-}
-#portfolio .folio-item img {
-	vertical-align: middle;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-#portfolio .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: transparent;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-#portfolio .folio-item-table {
-	display: table;
-	width: 100%;
-	height: 100%;
-}
-#portfolio .folio-item-cell {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-	position: relative;
-	left: -100%;
-}
-
-#portfolio .folio-title {
-	color: #FFFFFF;
-	font-size: 3.3rem;
-	padding: 0 3rem;
-	margin-bottom: 0;
-}
-#portfolio .folio-types {
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-	font-family: "poppins-regular", sans-serif;
-	font-size: 1.2rem;
-	letter-spacing: .1rem;
-	color: rgba(255, 255, 255, 0.6);
-}
-#portfolio .folio-item:hover .overlay {
-	background: rgba(0, 0, 0, 0.8);
-}
-#portfolio .folio-item:hover .folio-item-cell {
-	left: 0;
-}
-#portfolio .folio-item:hover img {
-	-webkit-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	transform: scale(1.05);
-}
+/* PORTFOLIO TAGS */
 
 /**
  * responsive:
@@ -2117,7 +2036,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #151515;
-	opacity: .9;
+	opacity: .8;
 }
 
 #services .section-intro {
